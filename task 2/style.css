@@ -1,0 +1,197 @@
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: rgb(155, 155, 155);
+}
+
+.button{
+    position: absolute;
+    display: inline-block;
+    right: 12px;
+    top:10px;    
+}
+
+.btn{
+    margin: 0px 10px;
+    background-color:  rgb(94, 0, 0);
+    color: white;
+    padding :3px 14px;
+    border: 15px;
+    border-radius:12px;
+    font-size: large;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: blue;
+}
+
+header {
+    text-align: left;
+    background-color: black;
+    color:  rgb(155, 155, 155);
+    padding: 20px;
+}
+
+#about {
+    text-align: center;
+    padding: 20px;
+}
+
+#about h4 {
+    text-align: left;
+    word-spacing: 2px;
+}
+
+#about h1 {
+    text-align: left;
+}
+
+#about li {
+    margin: 12px;
+}
+
+#about img {
+    width: 30%;
+    height: 400PX;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    float: right;
+    MARGIN :15px;
+}
+
+#skills {
+    border-radius: 10px;
+    background-color:  black;
+    color:  rgb(155, 155, 155);
+    padding: 2px;
+    clear: both;
+    margin: 0px;
+    
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 44px;
+    color:  rgb(155, 155, 155);
+}
+
+#skills ul {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+#skills li {
+    margin: 5px 0;
+    font-size: 28px;
+}
+
+#skills img {
+    float: right;
+    width: 200px;
+    border-radius: 90px;
+    padding: 30px;
+    padding-top: 100px;
+    height: 100px;
+    margin-top: 100px;
+
+}
+
+
+#CERTIFICATION {
+   margin: 12px;
+    padding: 2px;  
+    text-align: center;
+}
+
+.CERTIFICATE {
+    background-color: black;
+    margin: 25px 0;
+    border: 1px solid black;
+    padding: 0px;
+    border-radius: 5px;
+    width: 49%;
+    float: left;
+    height: 467px;   
+}
+
+.CERTIFICATEt {
+    background-color: black;
+    border: 1px solid black;
+    padding: 0px;   
+    border-radius: 5px;
+    width: 49%;
+    float: right;
+    margin-top: 25px;
+    
+}
+.CERTIFICATEt img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.CERTIFICATE img {
+    padding :5px;
+    height: 355px;
+    width: 550px;
+    border-radius: 5px;
+}
+.CERTIFICATEt h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color:  rgb(155, 155, 155);
+}
+
+.CERTIFICATE h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color:  rgb(155, 155, 155);
+    }
+
+
+#resume {
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#resume a:hover {
+    background-color:  rgb(155, 155, 155);
+    }
+
+
+#contact {
+    text-align: leftr;
+    padding-top: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: rgb(155, 155, 155);
+    padding: 10px;
+    font-size: 14px;
+}
+
